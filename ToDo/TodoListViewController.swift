@@ -47,8 +47,8 @@ class TodoListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let item1: Item = Item(title: "宿題をする")
-        let item2: Item = Item(title: "牛乳を買う")
-        let item3: Item = Item(title: "手紙を書く")
+        let item2: Item = Item(title: "卵を買う")
+        let item3: Item = Item(title: "ハガキを書く")
         
         itemArray.append(item1)
         itemArray.append(item2)
